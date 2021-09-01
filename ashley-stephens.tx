@@ -91,7 +91,17 @@ link to codepen: https://codepen.io/astephens-fsd/pen/abwNOqR?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
+        inline: doesnt require a line to begin  on a new line on webpage, does not have top and bottom margin
+    b   lock: will create line breaks in content, also has a top and bottom margin
+    2. What happens when an element is positioned absolutely?
+        postioned to nearest block, and managed by top, bottom, left and right margins
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        flex-grow
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block: div , address, h1
+        inline: span , a
+        inine-block: img 
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+        it helps to style and explain different parts of the box attributes : margin, border, padding, content
+        
