@@ -39,25 +39,54 @@ link to codepen: https://codepen.io/astephens-fsd/pen/abwNOqR?editors=1100
     18. How to we select an element? Example - every h2 on the page
         h2{} or .classname{}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-        
+        id is used for a single element used for only 1 time on page ie: footer or menu
+        class can be used to style multiple elements many times on a page ie: p or link
     20. How do we select classes in CSS?
+        .classname{}
     21. How do we select a p element with a single class of "human""?
+        <p class="human">
     22. What is a parent child selector? When would this be useful? 
+       ("parent > child") this would select all elements that are directly associated with main element hence why it is child, all attributes trickle down to child
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a:links{}
     24. What is a pseudo selector?
+        selects elements in a certain state like hover
     25. What do we use the change the spacing between lines?
+        line-height
     26. What do we use to change the spacing between letters?
+        letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted balck;
     29. How do I select everything on the page? 
+        *{}
     30. How do I write a comment in CSS?
+        /* */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls -la
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        delete <file>, it will be deleted permanently and very difficult to retrieve if you can from somewhere else
     34. Why should I use version control? 
+        helps to keep track of changes and debug easier
     35. How often should I commit to github?
+        whenever finishing a step or every 1/2 hour or so
     36. What is the command we would use to push our repo up to github? 
+        git add .        git commit -m "details of change"          git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+        - fork project
+        -copy SSH key 
+        -open terminal
+        -cd directory
+        -git clone "SSH key"
+        -cd "project name"
+        -git checkout -b branch-name
+        -code .
+        -git add .
+        -git commit -m "details of changes"
+        -git push -u origin branch-name
 
 Stretch Questions
 
